@@ -1,5 +1,5 @@
 {
-  "name": "react-polyglot",
+  "name": "@5rabbits/react-polyglot",
   "version": "0.2.5",
   "description": "Higher order React component for using Polyglot",
   "main": "lib/index.js",
@@ -8,6 +8,9 @@
     "src",
     "example"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean": "rimraf lib",
     "build:example": "webpack example/app.js example/dist.js",
